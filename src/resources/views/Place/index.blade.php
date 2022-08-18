@@ -36,9 +36,7 @@
                                     <th>Kd Ruang</th>
                                     <th>Deskripsi</th>
                                     <th>Penanggung Jawab</th>
-                                    @if(auth()->user()->is_admin)
-                                        <th>Action</th>
-                                    @endif
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>

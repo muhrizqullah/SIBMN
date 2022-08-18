@@ -25,8 +25,8 @@ return new class extends Migration
 
         DB::table('settings')->insert(
             array(
-                'perwakilan' => ' ',
-                'lokasi' => ' ',
+                'perwakilan' => 'BPK RI Perwakilan Provinsi Riau',
+                'lokasi' => 'Pekanbaru',
                 'kode_upb' => ' ',
                 'kepala_perwakilan' => ' ',
             )

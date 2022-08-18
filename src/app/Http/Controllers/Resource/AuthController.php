@@ -76,6 +76,6 @@ class AuthController extends Controller
             'password' => Hash::make($validatedData['password'])
         ]);
 
-        return redirect('/login')->with('success', 'Registration succesfully!');
+        return redirect('/login')->with('success', 'Registration succesfull!');
     }
 }
