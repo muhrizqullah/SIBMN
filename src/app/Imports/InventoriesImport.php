@@ -19,7 +19,7 @@ class InventoriesImport implements ToModel, WithHeadingRow
             'name'  => $row['nama'],
             'brand' => $row['merk'],
             'place_id'  => $row['id_lokasi'],
-            'description'   => $row['deskripsi'],
+            'description'   => $row['keterangan'],
             'quantity'  => $row['jumlah_barang'],
             'unit'  => $row['satuan'],
             'price' => $row['harga'],

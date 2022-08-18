@@ -20,7 +20,7 @@
                                     <h1 class="h4 text-gray-900 mb-4">Tambah Inventaris</h1>
                                 </div>
                                 <div>
-                                    <a href="/import-file/Template.csv" download="Template">Download Template</a>
+                                    <a href="/import-file/Template.xlsx" download="Template">Download Template</a>
                                     <p class="h4 text-warning mb-2">Pastikan data BENAR sebelum dimasukan!</p>
                                 </div>
                                 <form method="POST" action="/importFile" enctype="multipart/form-data">

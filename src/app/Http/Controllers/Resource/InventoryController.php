@@ -86,7 +86,7 @@ class InventoryController extends Controller
     public function import(Request $request)
     {
         $validatedData = $request->validate([
-			'file' => 'required|mimes:csv'
+			'file' => 'required|mimes:csv,xlsx'
 		]);
 
         $file = $request->file('file');

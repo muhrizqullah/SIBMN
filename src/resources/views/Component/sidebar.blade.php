@@ -3,7 +3,7 @@
         <div class="sidebar-brand-icon">
             <img src="{{ URL::asset('dist/img/logo/logo2.png') }}">
         </div>
-        <div class="sidebar-brand-text mx-3">SIBMN</div>
+        <div class="sidebar-brand-text mx-2">SIBMN</div>
     </div>
     <hr class="sidebar-divider my-0">
     <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">

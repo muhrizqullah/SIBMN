@@ -39,10 +39,6 @@
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="description" class="form-control @error('description') is-invalid @enderror" id="description" placeholder="Deskripsi" value="{{ old('description') }}" autofocus required>
-                                        @error('description')<div id="validationDescription" class="invalid-feedback">{{ $message }}</div>@enderror
-                                    </div>
-                                    <div class="form-group">
                                         <input type="text" name="quantity" class="form-control @error('quantity') is-invalid @enderror" id="quantity" placeholder="Jumlah Barang" value="{{ old('quantity') }}" autofocus required>
                                         @error('quantity')<div id="validationQuantity" class="invalid-feedback">{{ $message }}</div>@enderror
                                     </div>
@@ -69,6 +65,10 @@
                                     <div class="form-group">
                                         <input type="text" name="tahun_perolehan" class="form-control @error('tahun_perolehan') is-invalid @enderror" id="tahun_perolehan" placeholder="Tahun Perolehan" value="{{ old('tahun_perolehan') }}" autofocus required>
                                         @error('tahun_perolehan')<div id="validationTahun_perolehan" class="invalid-feedback">{{ $message }}</div>@enderror
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="description" class="form-control @error('description') is-invalid @enderror" id="description" placeholder="Keterangan" value="{{ old('description') }}" autofocus required>
+                                        @error('description')<div id="validationDescription" class="invalid-feedback">{{ $message }}</div>@enderror
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-primary btn-block">Submit</button>
